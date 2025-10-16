@@ -6,6 +6,7 @@ How to run?
  git clone https://github.com/vanik18/Medical-Chatbot-with-LLMs.git
 
  step 1: create a conda environment after opening the repository 
+
   conda create -n medibot python=3.14 -y
 
  conda activate medibot 
@@ -14,9 +15,10 @@ step 2: install the requirements
 
  pip install -r requirements.txt
 
- Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
+ # Create a .env file in the root directory and add your Pinecone and openai credentials as follows:
 
  PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
  OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
  # run the following command to store embeddings to pinecone
@@ -34,7 +36,7 @@ Flask
 GPT
 Pinecone
 
-AWS-CICD-Deployment-with-Github-Actions
+# AWS-CICD-Deployment-with-Github-Actions
 
 1. Login to AWS console.
 2. Create IAM user for deployment
@@ -45,7 +47,7 @@ AWS-CICD-Deployment-with-Github-Actions
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 
@@ -57,7 +59,7 @@ AWS-CICD-Deployment-with-Github-Actions
 
 5. Lauch your docker image in EC2
 
-#Policy:
+# Policy:
 
 1. AmazonEC2ContainerRegistryFullAccess
 2. AmazonEC2FullAccess
