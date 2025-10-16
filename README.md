@@ -33,11 +33,15 @@ python app.py
 Now:open up localhost:
 
 # Techstack Used:
-.Python
-.LangChain
-.Flask
-.GPT
-.Pinecone
+->Python
+
+->LangChain
+
+->Flask
+
+->GPT
+
+->Pinecone
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -74,23 +78,35 @@ Now:open up localhost:
 # 4. Create EC2 machine (Ubuntu)
 # 5. Open EC2 and Install docker in EC2 Machine:
 #optinal
+
 sudo apt-get update -y
+
 sudo apt-get upgrade
+
 #required
+
 curl -fsSL https://get.docker.com -o get-docker.sh
+
 sudo sh get-docker.sh
+
 sudo usermod -aG docker ubuntu
+
 newgrp docker
 
 # 6. Configure EC2 as self-hosted runner:
 setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
 # 7. Setup github secrets:
-AWS_ACCESS_KEY_ID
-AWS_SECRET_ACCESS_KEY
-AWS_DEFAULT_REGION
-ECR_REPO
-PINECONE_API_KEY
-OPENAI_API_KEY
+->AWS_ACCESS_KEY_ID
+
+->AWS_SECRET_ACCESS_KEY
+
+->AWS_DEFAULT_REGION
+
+->ECR_REPO
+
+->PINECONE_API_KEY
+
+->OPENAI_API_KEY
 
 
