@@ -10,7 +10,7 @@ clone the repository
 
  step 1: create a conda environment after opening the repository 
 
-  conda create -n medibot python=3.14 -y
+  conda create -n medibot python=3.11 -y
 
  conda activate medibot 
 
