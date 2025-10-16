@@ -1,7 +1,10 @@
-Medical-Chatbot-with-LLMs
+# Medical-Chatbot-with-LLMs
 
 How to run?
- clone the repository 
+
+STEPS:
+
+clone the repository 
 
  git clone https://github.com/vanik18/Medical-Chatbot-with-LLMs.git
 
